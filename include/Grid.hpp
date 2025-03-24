@@ -2,6 +2,7 @@
 
 #include <Matrix2D.hpp>
 #include <Cell.hpp>
+#include <Constants.hpp>
 
 class Grid {
 private:
@@ -10,4 +11,5 @@ public:
     Grid();
 
     void draw(sf::RenderWindow& win);
+    void set_is_free(sf::Vector2i mouse_pos);
 };
