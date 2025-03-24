@@ -25,6 +25,7 @@ void Engine::draw() {
 void Engine::start() {
     while (win_.isOpen())
     {
+        grid_.update();
         check_events();
         draw();
     }
