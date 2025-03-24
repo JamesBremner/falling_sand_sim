@@ -7,8 +7,12 @@ Engine::Engine() : win_(sf::VideoMode({Window::Width, Window::Height}), "Falling
 void Engine::check_events() {
     while (const std::optional event = win_.pollEvent())
         {
-            if (event->is<sf::Event::Closed>())
+            if (event->is<sf::Event::Closed>()) {
                 win_.close();
+            }
+            if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)) {
+                grid_.set_is_free(sf::Mouse::getPosition(win_));
+            }
         }
 }
 
