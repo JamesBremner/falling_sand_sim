@@ -1,6 +1,8 @@
 #include <Engine.hpp>
 
-Engine::Engine() : win_(sf::VideoMode({Window::width, Window::height}), "Falling Sand Simulator", sf::Style::None) {}
+Engine::Engine() : win_(sf::VideoMode({Window::Width, Window::Height}), "Falling Sand Simulator", sf::Style::None) {
+    win_.setFramerateLimit(Window::Fps);
+}
 
 void Engine::check_events() {
     while (const std::optional event = win_.pollEvent())
