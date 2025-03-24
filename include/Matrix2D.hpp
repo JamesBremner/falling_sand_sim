@@ -1,6 +1,7 @@
 #pragma once
 
 #include <memory>
+#include <Cell.hpp>
 
 template <typename T>
 class Matrix2D {
@@ -11,6 +12,8 @@ private:
     std::unique_ptr<T[]> data_;
 
 public:
+    Matrix2D() {}
+
     Matrix2D(int x, int y) : rows_(y), cols_(x), data_(std::make_unique<T[]>(x * y)) {}
 
     T* operator[](int i) {
