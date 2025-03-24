@@ -15,5 +15,7 @@ public:
 
     sf::RectangleShape& get();
     bool is_free();
+    void set_is_free(bool is_free);
     bool is_upd();
+    void set_is_upd(bool is_upd);
 };
