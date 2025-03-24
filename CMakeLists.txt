@@ -12,7 +12,7 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(falling_sand_sim src/main.cpp src/Engine.cpp src/Cell.cpp)
+add_executable(falling_sand_sim src/main.cpp src/Engine.cpp src/Cell.cpp src/Grid.cpp)
 target_compile_features(falling_sand_sim PRIVATE cxx_std_17)
 target_link_libraries(falling_sand_sim PRIVATE SFML::Graphics)
 

@@ -1,7 +1,7 @@
 #pragma once
 
+#include <cassert>
 #include <memory>
-#include <Cell.hpp>
 
 template <typename T>
 class Matrix2D {
@@ -10,7 +10,6 @@ private:
     int rows_;
     int cols_;
     std::unique_ptr<T[]> data_;
-
 public:
     Matrix2D() {}
 

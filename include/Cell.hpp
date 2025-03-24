@@ -9,6 +9,7 @@ private:
     sf::RectangleShape cell_;
     bool is_free_;
     bool is_upd_;
+
 public:
     Cell();
 
