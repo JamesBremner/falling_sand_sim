@@ -1,9 +1,10 @@
+#include <SFML/Graphics.hpp>
 #include <Engine.hpp>
 
 int main()
 {
-    Engine sim_engine;
-    sim_engine.start();
+    Engine sim;
+    sim.start();
 
     return 0;
 }

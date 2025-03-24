@@ -1,19 +1,14 @@
 #pragma once
-
 #include <SFML/Graphics.hpp>
-
-#include <Sand.hpp>
-#include <Constants/Constants.hpp>
+#include <Constants.hpp>
 
 class Engine {
-
 private:
-    Sand sand_;
-    sf::RenderWindow window_;
+    sf::RenderWindow win_;
 
     void draw();
     void check_events();
-    void update();
+
 public:
     Engine();
 
