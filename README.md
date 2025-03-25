@@ -21,6 +21,9 @@ The class structures in the main and dev branches differ significantly.
 
 ## Error
 Err: build/_deps/freetype-src/CMakeLists.txt:113
+
 Fix: Set cmake_minimum_required(VERSION 3.28)
+
 Err: May occur in build/_deps/flac-src, ogg-src, vorbis-src
+
 Fix: Same as above
