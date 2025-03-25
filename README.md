@@ -20,7 +20,8 @@ The class structures in the main and dev branches differ significantly.
 5. Once the build is complete, run the program directly from the terminal or through the VSCode interface.
 
 ## Error
-Err: build/_deps/freetype-src/CMakeLists.txt:113
+Err: build/_deps/freetype-src/CMakeLists.txt:113 ->
 Fix: Set cmake_minimum_required(VERSION 3.28)
-Err: May occur in build/_deps/flac-src, ogg-src, vorbis-src
+
+Err: May occur in build/_deps/flac-src, ogg-src, vorbis-src ->
 Fix: Same as above
