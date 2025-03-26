@@ -7,7 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(SFML_DIR ${CMAKE_SOURCE_DIR}/SFML-3.0.0/lib/cmake/SFML)
 
-add_executable(falling_sand_sim src/main.cpp src/Engine.cpp src/Grain.cpp src/Sand.cpp)
+add_executable(falling_sand_sim src/main.cpp src/Engine.cpp src/Cell.cpp src/Grid.cpp)
 
 find_package(SFML 3 REQUIRED COMPONENTS Graphics)
 

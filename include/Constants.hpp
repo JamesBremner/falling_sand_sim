@@ -10,7 +10,7 @@ namespace Window {
 
 
 namespace CellStats {
-    constexpr float Cell = 20.f;
+    constexpr float Cell = 5.f;
     constexpr sf::Vector2f Cell2f = {Cell, Cell};
     constexpr sf::Color Color = sf::Color(194, 178, 128);
 }

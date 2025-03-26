@@ -1,3 +1,15 @@
-/build
 /.vscode
 /SFML-3.0.0
+/build/.cmake
+build/ALL_BUILD.vcxproj
+build/ALL_BUILD.vcxproj.filters
+build/cmake_install.cmake
+build/CMakeCache.txt
+/build/CMakeFiles
+/build/falling_sand_sim.dir
+/build/x64
+build/ZERO_CHECK.vcxproj.filters
+build/ZERO_CHECK.vcxproj
+build/falling_sand_sim.vcxproj.filters
+build/falling_sand_sim.vcxproj
+build/falling_sand_sim.sln
